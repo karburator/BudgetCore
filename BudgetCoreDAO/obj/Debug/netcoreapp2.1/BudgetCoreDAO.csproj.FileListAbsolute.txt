@@ -1,0 +1,9 @@
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/bin/Debug/netcoreapp2.1/BudgetCoreDAO.deps.json
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/bin/Debug/netcoreapp2.1/BudgetCoreDAO.dll
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/bin/Debug/netcoreapp2.1/BudgetCoreDAO.pdb
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.csprojAssemblyReference.cache
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.AssemblyInfoInputs.cache
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.AssemblyInfo.cs
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.dll
+/Users/test/Documents/Repositories/BudgetCore/BudgetCoreDAO/obj/Debug/netcoreapp2.1/BudgetCoreDAO.pdb
