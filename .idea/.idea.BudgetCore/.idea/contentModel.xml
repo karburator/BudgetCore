@@ -19,6 +19,24 @@
         <e p="Receipt.cs" t="Include" />
         <e p="ReceiptProperty.cs" t="Include" />
       </e>
+      <e p="JsonParser" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JsonParser.cs" t="Include" />
+        <e p="JsonParser.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="GoodModel.cs" t="Include" />
+          <e p="ModifierModel.cs" t="Include" />
+          <e p="ReceiptModel.cs" t="Include" />
+          <e p="ReceiptPropertyModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="JsonParser.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetCoreDAO", "BudgetCoreDAO\BudgetCoreDAO.csproj", "{54F20D61-B92B-4049-9257-B2A208D307B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParser", "JsonParser\JsonParser.csproj", "{979DB409-BCD5-41DE-B825-69049AD320D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{54F20D61-B92B-4049-9257-B2A208D307B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F20D61-B92B-4049-9257-B2A208D307B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F20D61-B92B-4049-9257-B2A208D307B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979DB409-BCD5-41DE-B825-69049AD320D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979DB409-BCD5-41DE-B825-69049AD320D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979DB409-BCD5-41DE-B825-69049AD320D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979DB409-BCD5-41DE-B825-69049AD320D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

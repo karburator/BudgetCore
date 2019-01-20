@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "8c049f1900752b05787fd1b3e5c2f6953c95366f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "JsonParser/1.0.0": {
+        "dependencies": {
+          "ServiceStack.Text": "5.4.0"
+        },
+        "runtime": {
+          "JsonParser.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "ServiceStack.Text/5.4.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Memory": "4.5.1",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/ServiceStack.Text.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.4.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.1": {},
+      "System.Runtime/4.3.0": {}
+    }
+  },
+  "libraries": {
+    "JsonParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "ServiceStack.Text/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-piyHU0ZdUkWhmyHdrfyOAdMdMiU/6YKDMSbzvx/8w9FvUUgY0bFemQjh2J/y9Gj6mA2XuATPADtOjzjnBipVfQ==",
+      "path": "servicestack.text/5.4.0",
+      "hashPath": "servicestack.text.5.4.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
+      "path": "system.memory/4.5.1",
+      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    }
+  }
+}
