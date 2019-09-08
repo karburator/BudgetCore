@@ -17,8 +17,8 @@ namespace BudgetFIleListner.Parse.Json
         /// <summary>Наценка (ставка).</summary>
         public decimal Markup { get; set; }
         /// <summary>Скидка (сумма), в копейках.</summary>
-        public decimal DiscountSum { get; set; }
+        public int DiscountSum { get; set; }
         /// <summary>yНаценка (сумма), в копейках.</summary>
-        public decimal MarkupSum { get; set; }
+        public int MarkupSum { get; set; }
     }
 }

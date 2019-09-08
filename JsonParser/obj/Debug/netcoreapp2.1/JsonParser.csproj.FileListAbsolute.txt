@@ -1,9 +1,0 @@
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/bin/Debug/netcoreapp2.1/JsonParser.deps.json
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/bin/Debug/netcoreapp2.1/JsonParser.dll
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/bin/Debug/netcoreapp2.1/JsonParser.pdb
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.csprojAssemblyReference.cache
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.csproj.CoreCompileInputs.cache
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.AssemblyInfoInputs.cache
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.AssemblyInfo.cs
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.dll
-/Users/test/Documents/Repositories/BudgetCore/JsonParser/obj/Debug/netcoreapp2.1/JsonParser.pdb

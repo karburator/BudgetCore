@@ -38,23 +38,23 @@ namespace BudgetFIleListner.Parse.Json
         /// <summary>Скидка/наценка.</summary>
         public List<ModifierModel> Modifiers { get; set; }
         /// <summary>НДС итога чека со ставкой 18%, в копейках.</summary>
-        public decimal Nds18 { get; set; }
+        public int Nds18 { get; set; }
         /// <summary>НДС итога чека со ставкой 10%, в копейках.</summary>
-        public decimal Nds10 { get; set; }
+        public int Nds10 { get; set; }
         /// <summary>НДС итога чека со ставкой 0%, в копейках.</summary>
-        public decimal Nds0 { get; set; }
+        public int Nds0 { get; set; }
         /// <summary>НДС не облагается.</summary>
-        public decimal NdsNo { get; set; }
+        public int NdsNo { get; set; }
         /// <summary>НДС итога чека с рассчитанной ставкой 18%, в копейках.</summary>
-        public decimal NdsCalculated18 { get; set; }
+        public int NdsCalculated18 { get; set; }
         /// <summary>НДС итога чека с рассчитанной ставкой 10%, в копейках.</summary>
-        public decimal NdsCalculated10 { get; set; }
+        public int NdsCalculated10 { get; set; }
         /// <summary>ИТОГ, в копейках.</summary>
-        public decimal TotalSum { get; set; }
+        public int TotalSum { get; set; }
         /// <summary>Сумма уплаченная наличными, в копейках.</summary>
-        public decimal CashTotalSum { get; set; }
+        public int CashTotalSum { get; set; }
         /// <summary>Сумма уплаченная электронными средствами платежа, в копейках.</summary>
-        public decimal EcashTotalSum { get; set; }
+        public int EcashTotalSum { get; set; }
         /// <summary>Порядковый номер фискального документа.</summary>
         public int FiscalDocumentNumber { get; set; }
         /// <summary>Фискальный номер документа.</summary>
@@ -68,7 +68,7 @@ namespace BudgetFIleListner.Parse.Json
         /// <summary>Адрес сайта для проверки ФП.</summary>
         public string AddressToCheckFiscalSign { get; set; }
         /// <summary>Размер вознаграждения платежного агента (субагента), в копейках.</summary>
-        public decimal paymentAgentRemuneration { get; set; }
+        public int paymentAgentRemuneration { get; set; }
         /// <summary>Телефон платежного агента.</summary>
         public string PaymentAgentPhone { get; set; }
         /// <summary>Телефон платежного субагента.</summary>
@@ -86,7 +86,7 @@ namespace BudgetFIleListner.Parse.Json
         /// <summary>Операция банковского субагента.</summary>
         public string BankSubagentOperation { get; set; }
         /// <summary>Размер вознаграждения банковского агента (субагента).</summary>
-        public decimal BankAgentRemuneration { get; set; }
+        public int BankAgentRemuneration { get; set; }
         /// <summary>Наименование оператора по переводу денежных средств.</summary>
         public string OperatorName { get; set; }
         /// <summary>Адрес оператора по переводу денежных средств.</summary>

@@ -22,7 +22,7 @@ namespace BudgetFIleListner.Parse.Json
                 using(StreamReader reader = new StreamReader(fileStream))
                 {
                     string json = reader.ReadToEnd();
-                    ReceiptModel model = GetReceiptModel(json);
+                    ReceiptModel model = GetReceiptModel($"{{{json}}}");
                     return model;
                 }
             }
