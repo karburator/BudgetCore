@@ -4,30 +4,30 @@ using BudgetCoreDAO;
 using BudgetCoreDAO.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace BudgetCoreApi.Controller
 {
-    [Route("reciept")]
-    public class ReceiptController
+    [Route("good")]
+    public class GoodController
     {
         [HttpGet]
-        public async Task<IEnumerable<Receipt>> GetAllReceipts()
+        public async Task<IEnumerable<Good>> GetAllGoods()
         {
             using (var context = new BudgetContext())
             {
-                var receipts = await context.Receipts.ToListAsync();
+                var receipts = await context.Goods.ToListAsync();
                 return receipts;
             }
         }
 
         [HttpGet("{id:int}")]
-        public async Task<Receipt> GetReceipt(int id)
+        public async Task<Good> GetGood(int id)
         {
             using (var context = new BudgetContext())
             {
-                var receipt = await context.Receipts
-                    .Include(el => el.Items)
-                    .Include(el => el.Modifiers)
+                var receipt = await context.Goods
+                    .Include(el => el.Product)
                     .FirstOrDefaultAsync(el => el.Id == id);
                 return receipt;
             }

@@ -28,10 +28,8 @@ namespace BudgetCoreDAO
         public int TotalSum { get; set; }
         #endregion
         
-        /// <summary>Наименование пользователя.</summary>
-        public string User { get; set; }
-        /// <summary>ИНН пользователя.</summary>
-        public string UserInn { get; set; }
+        /// <summary>Магазит.</summary>
+        public Shop Shop { get; set; }
         /// <summary>Номер чека за смену.</summary>
         public int RequestNumber { get; set; }
         /// <summary>Номер смены.</summary>

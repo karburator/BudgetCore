@@ -7,27 +7,25 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BudgetCoreApi.Controller
 {
-    [Route("reciept")]
-    public class ReceiptController
+    [Route("product")]
+    public class ProductController
     {
         [HttpGet]
-        public async Task<IEnumerable<Receipt>> GetAllReceipts()
+        public async Task<IEnumerable<Product>> GetAllProducts()
         {
             using (var context = new BudgetContext())
             {
-                var receipts = await context.Receipts.ToListAsync();
+                var receipts = await context.Products.ToListAsync();
                 return receipts;
             }
         }
 
         [HttpGet("{id:int}")]
-        public async Task<Receipt> GetReceipt(int id)
+        public async Task<Product> GetProduct(int id)
         {
             using (var context = new BudgetContext())
             {
-                var receipt = await context.Receipts
-                    .Include(el => el.Items)
-                    .Include(el => el.Modifiers)
+                var receipt = await context.Products
                     .FirstOrDefaultAsync(el => el.Id == id);
                 return receipt;
             }

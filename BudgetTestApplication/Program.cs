@@ -18,7 +18,7 @@ namespace BudgetTestApplication
             {
                 foreach (var receiptModel in model)
                 {
-                    var receipt = ReceiptWtapper.Create(receiptModel);
+                    var receipt = ReceiptWtapper.Create(receiptModel, context);
 
                     var current = context.GetReceipt(receiptModel.FiscalDriveNumber, receiptModel.FiscalDocumentNumber,
                         receiptModel.FiscalSign,

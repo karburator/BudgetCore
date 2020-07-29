@@ -12,8 +12,8 @@ namespace BudgetCoreDAO
         
         public int Id { get; set; }
 
-        /// <summary>Наименование товара.</summary>
-        public string Name { get; set; }
+        public Product Product { get; set; }
+        
         /// <summary>Штриховой код EAN13,</summary>
         public string Barcode { get; set; }
         /// <summary>Цена за единицу.</summary>

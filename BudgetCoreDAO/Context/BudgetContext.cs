@@ -17,6 +17,8 @@ namespace BudgetCoreDAO.Context
         
         public DbSet<Receipt> Receipts { get; set; }
         public DbSet<Good> Goods { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Shop> Shops { get; set; }
         public DbSet<Modifier> Modifiers { get; set; }
         public DbSet<OperationType> OperationTypes { get; set; }
         public DbSet<ReceiptProperty> ReceiptProperties { get; set; }
