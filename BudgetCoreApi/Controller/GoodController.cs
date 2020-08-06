@@ -59,6 +59,7 @@ namespace BudgetCoreApi.Controller
             {
                 var receipt = await context.Receipts
                     .Include(el => el.Items)
+                    .ThenInclude(el => el.Product)
                     .FirstOrDefaultAsync(el => el.Id == receiptId);
                 return receipt.Items ?? Enumerable.Empty<Good>();
             }
