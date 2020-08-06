@@ -2,12 +2,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using BudgetCoreDAO;
 using BudgetCoreDAO.Context;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BudgetCoreApi.Controller
 {
     [Route("shop")]
+    [EnableCors("MyPolicy")]
     public class ShopController
     {
         [HttpGet]

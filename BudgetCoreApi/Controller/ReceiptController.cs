@@ -2,12 +2,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using BudgetCoreDAO;
 using BudgetCoreDAO.Context;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BudgetCoreApi.Controller
 {
     [Route("reciept")]
+    [EnableCors("MyPolicy")]
     public class ReceiptController
     {
         [HttpGet]
@@ -15,7 +17,9 @@ namespace BudgetCoreApi.Controller
         {
             using (var context = new BudgetContext())
             {
-                var receipts = await context.Receipts.ToListAsync();
+                var receipts = await context.Receipts
+                    .Include(el => el.Shop)
+                    .ToListAsync();
                 return receipts;
             }
         }
@@ -27,6 +31,7 @@ namespace BudgetCoreApi.Controller
             {
                 var receipt = await context.Receipts
                     .Include(el => el.Items)
+                    .Include(el => el.Shop)
                     .Include(el => el.Modifiers)
                     .FirstOrDefaultAsync(el => el.Id == id);
                 return receipt;
