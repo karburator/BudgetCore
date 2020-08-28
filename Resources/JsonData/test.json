@@ -1,0 +1,74 @@
+[
+	{
+		"document": {
+			"receipt": {
+				"ecashTotalSum": 41984,
+				"userInn": "7710929960",
+				"fiscalSign": 1327306601,
+				"senderAddress": "",
+				"retailPlaceAddress": "",
+				"taxationType": 1,
+				"buyerAddress": "",
+				"items": [
+					{
+						"quantity": 1,
+						"sum": 7125,
+						"price": 7125,
+						"name": "Суп рыбный/лосось 250гр"
+					}
+				],
+				"fiscalDriveNumber": "9280440300015758",
+				"kktRegId": "0001642311014511",
+				"shiftNumber": 44,
+				"nds18": 6997,
+				"receiptCode": 3,
+				"cashTotalSum": 0,
+				"totalSum": 41984,
+				"rawData": "AwAEAhEEEAA5MjgwNDQwMzAwMDE1NzU4DQQUADAwMDE2NDIzMTEwMTQ1MTEgICAg+gMMADc3MTA5Mjk5NjAgIBAEBAApWAAA9AMEAFwaw1w1BAYAMQRPHRdpDgQEACwAAAASBAQAMAEAAB4EAQAB/AMCAACkIwQ/AAYEFACLqKyuraCkIKzv4q3rqSAyMDCj4DcEAgD9DP8DAgAAARMEAgD9DK8EAQABsAQCACoCvAQBAAG+BAEABCMEOAAGBA0AkaCroOIgoaDgIDGqozcEAgDI6f8DAgADihMEAgBDIK8EAQABsAQCAGEFvAQBAAG+BAEABCMEQgAGBBcAkeOvIODroa3rqS+rruGu4ewgMjUwo+A3BAIA1Rv/AwIAAAETBAIA1RuvBAEAAbAEAgCkBLwEAQABvgQBAAQjBEIABgQXAI+g4eKgIKjioKvs763hqqDvIDE1MKPgNwQCAPoZ/wMCAAABEwQCAPoZrwQBAAGwBAIAVAS8BAEAAb4EAQAEIwRNAAYEIgCK4+Au5KirpSCiIKOu4Oeo5qUv4qis7O+tIDEwMC8yMKPgNwQCAPFA/wMCAAABEwQCAPFArwQBAAGwBAIA0wq8BAEAAb4EAQAEBwQBAAA5BAIAAKS/BAEAAMAEAQAAwQQBAAD9AwkAi+6hrqLsIIEuHwQBAAG5BAEAAk4EAgBVGw==",
+				"requestNumber": 304,
+				"user": "",
+				"operator": "Любовь Б.",
+				"operationType": 1,
+				"dateTime": "2019-04-26T14:49:00",
+				"fiscalDocumentNumber": 22569,
+				"addressToCheckFiscalSign": ""
+			}
+		}
+	},
+	{
+		"document": {
+			"receipt": {
+				"ecashTotalSum": 45718,
+				"kktRegId": "0001642401027930",
+				"fiscalSign": 3735164690,
+				"senderAddress": "",
+				"retailPlaceAddress": "",
+				"taxationType": 1,
+				"buyerAddress": "",
+				"items": [
+					{
+						"quantity": 1,
+						"sum": 7125,
+						"price": 7125,
+						"name": "Суп рыбный/лосось 250гр"
+					}
+				],
+				"fiscalDriveNumber": "9280440300019946",
+				"userInn": "7710929960",
+				"shiftNumber": 59,
+				"nds18": 7620,
+				"receiptCode": 3,
+				"cashTotalSum": 0,
+				"totalSum": 45718,
+				"rawData": "AwAhAhEEEAA5MjgwNDQwMzAwMDE5OTQ2DQQUADAwMDE2NDI0MDEwMjc5MzAgICAg+gMMADc3MTA5Mjk5NjAgIBAEBAD8hgAA9AMEAAj+51w1BAYAMQTeohcSDgQEADsAAAASBAQAJgEAAB4EAQAB/AMCAJayIwRKAAYEHwCNoK+o4q6qIKinIOCgp63r5SDk4OOq4q6iIDIwMKPgNwQCAP0M/wMCAAABEwQCAP0MrwQBAAGwBAIAKgK8BAEAAb4EAQAEIwRCAAYEFwCR468g4OuhreupL6uu4a7h7CAyNTCj4DcEAgDVG/8DAgAAARMEAgDVG68EAQABsAQCAKQEvAQBAAG+BAEABCMESgAGBB8AiqDg4q7kpavsIJel4OCoIKIgrOOtpKjgpSAxNTCj4DcEAgD6Gf8DAgAAARMEAgD6Ga8EAQABsAQCAFQEvAQBAAG+BAEABCMESgAGBB8AlOCoqqCkpavsqqggr64t6KKlpOGqqCAxMDAvNDCj4DcEAgDPNf8DAgAAARMEAgDPNa8EAQABsAQCAPgIvAQBAAG+BAEABCMEOAAGBA0AkaCroOIgoaDgIDGqozcEAgDL6f8DAgAD+BMEAgD7Oa8EAQABsAQCAKoJvAQBAAG+BAEABAcEAQAAOQQCAJayvwQBAADABAEAAMEEAQAA/QMWAIqg4eGo4CCMpeCq46uuoqAgjqvso6AfBAEAAbkEAQACTgQCAMQd",
+				"requestNumber": 294,
+				"user": "",
+				"operator": "Кассир Меркулова Ольга",
+				"operationType": 1,
+				"dateTime": "2019-05-24T14:22:00",
+				"fiscalDocumentNumber": 34556,
+				"addressToCheckFiscalSign": ""
+			}
+		}
+	}
+]

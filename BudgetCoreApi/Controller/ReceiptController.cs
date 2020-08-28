@@ -1,5 +1,8 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using BudgetCoreApi.Model;
+using BudgetCoreApi.Model.Mapper;
 using BudgetCoreDAO;
 using BudgetCoreDAO.Context;
 using Microsoft.AspNetCore.Cors;
@@ -13,14 +16,18 @@ namespace BudgetCoreApi.Controller
     public class ReceiptController
     {
         [HttpGet]
-        public async Task<IEnumerable<Receipt>> GetAllReceipts()
+        public async Task<IEnumerable<ReceiptModel>> GetAllReceipts()
         {
             using (var context = new BudgetContext())
             {
                 var receipts = await context.Receipts
                     .Include(el => el.Shop)
                     .ToListAsync();
-                return receipts;
+
+                var receiptModels = receipts
+                    .Select(ReceiptMapper.GetReceiptModel)
+                    .ToList();
+                return receiptModels;
             }
         }
 
