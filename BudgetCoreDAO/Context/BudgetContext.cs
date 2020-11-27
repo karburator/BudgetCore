@@ -12,7 +12,9 @@ namespace BudgetCoreDAO.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 //            optionsBuilder.UseSqlServer(@"Server=TROLL-PC\SQLEXPRESS;Database=budget;Trusted_Connection=True;");
-            optionsBuilder.UseSqlServer(@"Server=KYIRA-PC\SQLEXPRESS;Database=budget;Trusted_Connection=True;");
+            // optionsBuilder.UseSqlServer(@"Server=KYIRA-PC\SQLEXPRESS;Database=budget;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=KYIRA-PC\SQLEXPRESS;Database=budget-test;Trusted_Connection=True;");
+            optionsBuilder.EnableSensitiveDataLogging(true);
         }
         
         public DbSet<Receipt> Receipts { get; set; }

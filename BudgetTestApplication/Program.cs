@@ -2,6 +2,7 @@
 using System.IO;
 using BudgetCoreDAO.Context;
 using BudgetFIleListner.Parse.Json;
+using BudgetTestApplication.DataGeneration;
 
 namespace BudgetTestApplication
 {
@@ -10,7 +11,14 @@ namespace BudgetTestApplication
         static void Main(string[] args)
         {
             // ParsReceiptArray();
-            ParsDocumentArray();
+            // ParsDocumentArray();
+            CreateTestDb();
+        }
+
+        private static void CreateTestDb()
+        {
+            var generator = new DataGenerator();
+            generator.CreateData();
         }
 
         private static void ParsReceiptArray()
